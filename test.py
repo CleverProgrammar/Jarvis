@@ -1,7 +1,2 @@
-def a(c):
-    b(c)
-
-def b(c):
-    a(c)
-
-print(a(1))
+a, b, _ = [1,2, ]
+print(a,b)

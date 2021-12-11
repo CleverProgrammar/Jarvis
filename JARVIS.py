@@ -36,7 +36,10 @@ if __name__ == "__main__":
 
     while True:
         cmd = acceptCommand()
-        cmd,param = cmd.split(" ") + [None]
+        if len(cmd.split(" ")) == 1:
+            cmd,param = cmd.split(" ") + [None]
+        else:
+            cmd, param = cmd.split(" ")
         response = handleCommand(cmd, param)
         print(response)
 
