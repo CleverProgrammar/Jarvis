@@ -15,3 +15,5 @@ def handleCommand(cmd: str, param: str) -> None:
         return f"Today is {datetime.datetime.now().strftime('%A')}"
     if cmd == "time":
         return f"The time is {datetime.datetime.now().strftime('%I:%M %p')}"
+    if cmd == "calc":
+        return eval(param)
