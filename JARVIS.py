@@ -3,7 +3,6 @@ import datetime
 import json
 import time
 import sys
-from typing import ParamSpec
 
 CONFIGURATIONS = json.load(open('./data/config.json'))
 
