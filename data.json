@@ -1,0 +1,19 @@
+{
+  "greetings": {
+    "mornings": [
+      "Good Morning Sir. How can I help you today",
+      "Fabulous Morning. May I help you?",
+      "Enjoying the lovely day sir? How can I help sir?"
+    ],
+    "afternoons": [
+      "Good Afternoons sir, May I help you?",
+      "How's your day going sir?",
+      "Can I help you with something?"
+    ],
+    "evenings": [
+      "What's up this late in the day?",
+      "Missing me already or what?",
+      "Everything alright sir? May I help you anything?"
+    ]
+  }
+}
